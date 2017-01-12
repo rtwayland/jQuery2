@@ -4,6 +4,8 @@
 <head>
 	<title>Listo</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="styles/base/reset.css">
 	<link rel="stylesheet" href="styles/base/fonts.css">
 	<link rel="stylesheet" href="styles/views/landing.css">
@@ -25,16 +27,15 @@
 
 		<!-- to-do main container -->
 		<section class="todo-main-container">
-			<div class="progress-box" id="newList">
+			<div class="progress-box">
 				<h3>New To Dos</h3>
+				<ul class="list-group" id="newList"></ul>
 			</div>
 
 			<!--Add progress-box from the reademe-->
 			<div class="progress-box">
 				<h3>In Progress</h3>
 				<ul class="list-group" id="currentList"></ul>
-			</div>
-			<div>
 			</div>
 
 			<div class="progress-box">
@@ -62,6 +63,7 @@
 
 		<!--jQuery-->
 		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 		<!--INclude your script file here -->
 		<script src="app/scripts/script.js"></script>
 	</main>
